@@ -1,0 +1,148 @@
+/******** algo qui calcul le nombre de voyelle dans une chaine de cararctere ****************////
+programme CalculVoyel
+
+variables
+
+var Phrase arrays of  string
+var cpt : integer  
+
+begin 
+
+/******  lire ma phrase ***/
+for i= 0 to Phrase.lengnt-1 do 
+
+begin 
+read ( Phrase[i])
+end 
+
+
+for i= 0 to Phrase.lengnt-1 do 
+begin 
+switch Phrase[i]
+do     
+case A: 
+ cpt=cpt+1; 
+ i=i+; 
+
+ case E: 
+ cpt=cpt+1; 
+ i=i+; 
+
+ case I: 
+ cpt=cpt+1; 
+ i=i+; 
+ 
+ case O: 
+ cpt=cpt+1;
+ i=i+;  
+ break
+
+ case U: 
+ cpt=cpt+1;
+ i=i+;  
+ break; 
+
+ case V: 
+ cpt=cpt+1; 
+ i=i+; 
+ break; 
+
+
+ default 
+ 
+ i=i+ 1; 
+ break
+
+ end switch
+  endfor
+
+  writeln(cpt)
+ 
+end
+
+remarque : je peux remplacer le case avec ( if phrase[i==a Or phrae [i==u..........]]) je fait le teste puis j incremente le compteur 
+
+
+******////////////////////////*********  calcul le nombre de mot dans une chaine de cararctere ***-//****//////////////////////////
+
+
+programme NbrMots
+
+variables 
+
+var Phrase arrays of string
+var i : intger 
+var Nbr : integer 
+
+begin 
+
+for i= 0 to Phrase.lengnt-1 do 
+begin 
+ read ( Phrae[i])
+end
+
+for i= 0 to Phrase.lengnt-1  AND  pHRASE[i]<>""  do 
+   begin 
+ if Phrase [i]<>""  
+   i=i+1
+   else 
+   Nbr=Nbr+1; 
+enddo   
+
+write ( Nbr+1); 
+
+
+end
+
+/**** ***** exercice 3****//////////////////////
+
+
+/*******************exercice 4***-/////*//////
+
+programme  Mult
+
+variables 
+var Nb1, Nb2: integer 
+var i : integer 
+
+begin 
+
+readln(Nb1)
+Readln(Nb2)
+
+
+for ( i = 1 to NB2) do 
+
+Nb1=Nb1+Nb1
+
+
+endfor 
+
+readln ( Nb1); 
+
+end
+
+
+/******************************  exercice 5*/////*******//
+
+programme Multi
+
+var Nb1, Nb2: integer 
+var i : integer 
+
+begin 
+
+readln(Nb1)
+Readln(Nb2)
+
+
+for ( i = 1 to NB2) do 
+
+Nb1=Nb1*Nb1
+
+
+endfor 
+
+readln ( Nb1); 
+
+end
