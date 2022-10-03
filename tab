@@ -1,0 +1,35 @@
+variables
+
+var tab1, tab2 arrays of  integer
+var i,j,somme : integer  
+somme=0
+
+begin 
+//write(doner la taille du premier tab n)
+//read(n)
+for i= 0 to tab1.lengnt-1 do 
+begin 
+write tab1[i]
+read tab1[i]
+endfor
+
+//write(doner la taille du  tab 2)
+//read(m)
+for j= 0 to tab1.lengnt-1 do 
+begin 
+write tab2[j]
+read tab[j]
+endfor
+
+for i= 0 to tab1.lengnt-1 do 
+begin 
+
+      for j= 0 to tab1.lengnt-1 do 
+      begin 
+      if tab[i]==tab[j]
+        j++
+       else 
+       somme= tab[i]+tab[j]
+       end
+       i++
+end
